@@ -1,0 +1,191 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.maincontent {
+    min-height: 1000px !important;
+    position: relative;
+}
+
+.backvideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logo_img {
+    height: 150px;
+    width: 460px;
+}
+
+.blankcontainer {
+    height: 200px;
+}
+
+.custommark {
+    font-size: 70px;
+    font-weight: 900 !important;
+    text-align: center;
+}
+
+.custommarks {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600 !important;
+    color: #bd2029;
+}
+
+.custommarkss {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700 !important;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.custompara {
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+
+.logoonee {
+    height: 80px;
+    transform: translateY(20px);
+    padding-left: 20px;
+}
+
+.custominput {
+    width: 15%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: none;
+    box-shadow: 0px 15px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.custominput:focus {
+    outline-color: #bd2029 !important;
+}
+
+.custominput::placeholder {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 10px;
+    font-size: 19px;
+    border-radius: 12px !important;
+}
+
+.maincontent {
+    position: relative;
+}
+
+.custombtns {
+    width: 8%;
+    background-color: #bd2029 !important;
+}
+
+.custombtns:hover {
+    background-color: #fff !important;
+    color: #bd2029 !important;
+}
+
+
+/* .counterheadone
+{
+    font-size:
+} */
+
+
+/*  */
+
+
+/* body {
+        font-family: "Titillium Web", cursive;
+        width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        background: #222;
+        font-weight: 100;
+    } */
+
+.mai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    line-height: 1;
+    padding: 70px 180px !important;
+    font-size: 40px;
+}
+
+
+/*  */
+
+.blankcont {
+    height: 100px;
+}
+
+.countdown {
+    margin-bottom: 80px;
+}
+
+.countdown div {
+    text-align: center;
+    margin: 10px;
+    width: 100px;
+    padding: 15px 0;
+    background: rgba(255, 255, 255, 0.12);
+    border-top: 5px solid #bd2029;
+}
+
+.countdown div h3 {
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.countdown div h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (max-width: 575px) {
+    .countdown div {
+        width: 70px;
+        padding: 10px 0;
+        margin: 10px 8px;
+    }
+    .countdown div h3 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .countdown div h4 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
